@@ -1,7 +1,7 @@
 import { MongoClient, ObjectId } from 'mongodb';
 
 // 1. URL del cluster de streaming
-const url = "mongodb+srv://Astrid_ayelen:michu@clusterstreamingtpi.bikjfrm.mongodb.net/streaming_tpi?retryWrites=true&w=majority";
+const url = "mongodb+srv://backend:backend2026@clusterstreamingtpi.bikjfrm.mongodb.net/streaming_tpi?retryWrites=true&w=majority";
 const client = new MongoClient(url);
 const dbName = 'streaming_tpi';
 
