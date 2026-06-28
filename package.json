@@ -1,18 +1,15 @@
 {
-  "name": "tpi-parte2",
+  "name": "ot",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "sv.js",
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "node src/app.js"
-},
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
     "mongodb": "^7.4.0"
   }
 }
