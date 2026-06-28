@@ -40,34 +40,10 @@ Antes de ejecutar el proyecto es necesario tener instalado:
 
 ## Instalación
 
-Clonar el repositorio:
-
-```bash
-git clone <URL_DEL_REPOSITORIO>
-```
-
-Ingresar al proyecto:
-
-```bash
-cd tpi-parte2
-```
-
 Instalar dependencias:
 
 ```bash
 npm install
-```
-
----
-
-## Variables de entorno
-
-Crear un archivo `.env` en la raíz del proyecto con el siguiente contenido:
-
-```env
-PORT=3000
-MONGODB_URI=mongodb+srv://<usuario>:<password>@<cluster>.mongodb.net/
-DB_NAME=streaming_tpi
 ```
 
 ---
